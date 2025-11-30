@@ -1,0 +1,14 @@
+/* 首页文章卡片透明度 */
+#recent-posts > .recent-post-item {
+    background: rgba(255, 255, 255, 0.9); /* 0.9 代表 90% 不透明 */
+}
+
+/* 侧边栏透明度 */
+.card-widget {
+    background: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* 文章详情页透明度 */
+#post {
+    background: rgba(255, 255, 255, 0.9);
+}
