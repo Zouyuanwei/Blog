@@ -3,11 +3,11 @@
   <title>Zou Yuanwei</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://zouyuanwei.github.io/Blog/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://zouyuanwei.github.io/Blog/"/>
   <updated>1985-10-26T08:15:00.000Z</updated>
-  <id>http://example.com/</id>
+  <id>https://zouyuanwei.github.io/Blog/</id>
   
   <author>
     <name>Zou Yuanwei</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2025/11/30/hello-world/"/>
-    <id>http://example.com/2025/11/30/hello-world/</id>
+    <link href="https://zouyuanwei.github.io/Blog/2025/11/30/hello-world/"/>
+    <id>https://zouyuanwei.github.io/Blog/2025/11/30/hello-world/</id>
     <published>2025-11-30T06:24:31.511Z</published>
     <updated>1985-10-26T08:15:00.000Z</updated>
     
