@@ -4,9 +4,42 @@
   
     
     <entry>
+      <title>我的新文章</title>
+      <link href="/Blog/2025/12/01/text/"/>
+      <url>/Blog/2025/12/01/text/</url>
+      
+        <content type="html"><![CDATA[<p>这里是正文内容…</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客搭建 </category>
+          
+          <category> coding </category>
+          
+          <category> F1 </category>
+          
+          <category> writting </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+            <tag> Butterfly </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>I have my first Blog</title>
-      <link href="/Blog/2025/11/30/hello-world/"/>
-      <url>/Blog/2025/11/30/hello-world/</url>
+      <link href="/Blog/2025/11/30/My%20first%20Blog/"/>
+      <url>/Blog/2025/11/30/My%20first%20Blog/</url>
       
         <content type="html"><![CDATA[<h3 id="Fantanstic"><a href="#Fantanstic" class="headerlink" title="Fantanstic!"></a>Fantanstic!</h3>]]></content>
       
