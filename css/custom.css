@@ -15,3 +15,8 @@
 #page-header:before {
   background-color: transparent !important;
 }
+/*#footer {
+  background: transparent !important;
+  background-image: none !important;
+}
+ 如果文字看不清，可以加这行改文字颜色 */
