@@ -20,3 +20,18 @@
   background-image: none !important;
 }
  如果文字看不清，可以加这行改文字颜色 */
+ /* 1. 强制“Follow Me”按钮保持原本的天蓝色 */
+#aside-content .card-info #card-info-btn {
+    background-color: #49B1F5 !important; /* 强制蓝色 */
+    color: #fff !important; /* 强制白字 */
+}
+
+/* 2. (可选) 鼠标悬停在 Follow Me 上时的颜色，比如变深一点的蓝或橙色 */
+#aside-content .card-info #card-info-btn:hover {
+    background-color: #1e90ff !important; /* 悬停变橙色，如果不喜欢可以改成 #1e90ff */
+}
+
+/* 3. 如果你发现侧边栏头像上方的背景条还是蓝色，想把它也变灰，加这行 */
+.card-widget.card-info .card-info-avatar.is-center {
+    background: #333333 !important; 
+}
