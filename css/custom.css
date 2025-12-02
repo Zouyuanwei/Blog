@@ -35,3 +35,128 @@
 .card-widget.card-info .card-info-avatar.is-center {
     background: #333333 !important; 
 }
+body {
+    background-color: #ffffff !important;
+    background-image: none !important;
+}
+
+/* 如果你的主题有夜间模式，可能还需要加上这个，防止夜间模式失效或者冲突 */
+[data-theme="light"] body {
+    background-color: #ffffff !important;
+}
+/* 1. 修改底层背景：不能是纯白 #fff，要是渐变或浅灰 */
+body {
+    /* 这是一个非常淡的灰蓝渐变，看起来像白色，但能衬托出磨砂感 */
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%) !important;
+    background-attachment: fixed; /* 背景固定 */
+}
+
+/* 2. 给上面的文章卡片/侧边栏加磨砂 */
+/* 注意：请根据你的主题调整选择器，下面是通用的 Hexo/Butterfly 选择器 */
+.layout_post > #post,
+.layout_page > #page,
+#aside-content .card-widget,
+.recent-post-item {
+    /* 核心：半透明白色 + 模糊 */
+    background: rgba(255, 255, 255, 0.6) !important; /* 0.6 是透明度 */
+    backdrop-filter: blur(12px);            /* 模糊程度 */
+    -webkit-backdrop-filter: blur(12px);    /* 兼容苹果 */
+    
+    /* 加一个极淡的白边框，增强玻璃质感 */
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.05); /* 柔和阴影 */
+}
+/* 1. 把文章顶部的背景图/背景色去掉，设为透明 */
+#page-header {
+    background-color: transparent !important;
+    /* 这一行确保图片不被覆盖 */
+}
+
+/* 2. 去掉那个“让图片变暗”的遮罩层 */
+#page-header::before {
+    display: block !important; /* 必须显示遮罩 */
+    background-color: rgba(255, 255, 255, 0.2) !important; /* 白色半透明 (0.6是浓度) */
+}
+
+/* 标题改成黑色 */
+#page-header #post-info .post-title {
+    color: #000000 !important;
+    text-shadow: none !important;
+}
+
+/* 文章信息（日期、分类等）改成深灰 */
+#page-header #post-info .post-meta,
+#page-header #post-info .post-meta i {
+    color: #000000 !important;
+    opacity: 1 !important;
+}
+
+/* 顶部导航栏文字改成深色 */
+#page-header #nav #menus .menus_item > a,
+#page-header #nav .site-page {
+    color: #000000 !important;
+    text-shadow: none !important;
+}
+/* 底部 Footer 样式修改 */
+#footer {
+    /* 1. 背景改为浅灰色半透明 (240, 240, 240 是浅灰, 0.8 是透明度) */
+    background: rgba(152, 203, 247, 0.6) !important;
+    
+    /* 2. 添加磨砂模糊效果 */
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px); /* 兼容苹果设备 */
+    
+    /* 3. 确保去掉原来可能存在的背景图 */
+    background-image: none !important;
+}
+
+/* 4. 因为背景变亮了，必须把底部的文字和链接改成深色 */
+#footer, 
+#footer a {
+    color: #333333 !important; /* 深灰色字体 */
+}
+
+/* 5. (可选) 鼠标悬停在链接上时的颜色 */
+#footer a:hover {
+    color: #49b1f5 !important; /* 悬停时显示主题蓝，或者你可以改成你喜欢的颜色 */
+    text-decoration: underline;
+}
+/* 左上角博客名称（文字）变为黑色 */
+/* --- 文章页面样式修改 --- */
+
+/* 让文章发布的“时间”文字变黑 */
+#post-info .post-meta-date {
+    color: #3c3b3b !important;
+}
+
+/* 让文章发布的“分类”文字（链接）变黑 */
+#post-info .post-meta-categories a {
+    color: #2c2a2a !important;
+}
+#post-info .post-meta-categories a:hover {
+    color: #272626 !important; /* 鼠标悬停时稍微变灰，也可设为纯黑 #000000 */
+}
+
+/* 如果你也想让那个分隔符和图标变黑，加上这一行 */
+#post-info .meta-firstline, 
+#post-info .meta-firstline i {
+    color: #333333 !important;
+}
+
+
+/* --- 主页面样式修改 --- */
+
+/* 让博客名字长时间保持黑色（包括点击后、悬停时） */
+/* --- 左上角导航栏博客名字修改 --- */
+
+/* 强制设置左上角博客名字为黑色 */
+#nav #site-name {
+    color: #2d2d2d !important;
+    text-shadow: none !important; /* 去掉文字阴影，防止在深色背景下有白边 */
+}
+
+/* 确保鼠标悬停、点击等状态下也是黑色 */
+#nav #site-name:hover,
+#nav #site-name:visited {
+    color: #292929 !important;
+}
