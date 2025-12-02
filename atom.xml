@@ -6,7 +6,7 @@
   <link href="https://zouyuanwei.github.io/Blog/atom.xml" rel="self"/>
   
   <link href="https://zouyuanwei.github.io/Blog/"/>
-  <updated>2025-12-01T09:04:47.020Z</updated>
+  <updated>2025-12-02T09:09:32.301Z</updated>
   <id>https://zouyuanwei.github.io/Blog/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://zouyuanwei.github.io/Blog/2025/12/01/text/"/>
     <id>https://zouyuanwei.github.io/Blog/2025/12/01/text/</id>
     <published>2025-12-01T04:00:00.000Z</published>
-    <updated>2025-12-01T09:04:47.020Z</updated>
+    <updated>2025-12-02T09:09:32.301Z</updated>
     
     <content type="html"><![CDATA[<p>这里是正文内容…</p>]]></content>
     
@@ -33,14 +33,6 @@
       
     
     
-    
-    <category term="博客搭建" scheme="https://zouyuanwei.github.io/Blog/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-    
-    <category term="coding" scheme="https://zouyuanwei.github.io/Blog/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/coding/"/>
-    
-    <category term="F1" scheme="https://zouyuanwei.github.io/Blog/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/coding/F1/"/>
-    
-    <category term="writting" scheme="https://zouyuanwei.github.io/Blog/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/coding/F1/writting/"/>
     
     
     <category term="教程" scheme="https://zouyuanwei.github.io/Blog/tags/%E6%95%99%E7%A8%8B/"/>
